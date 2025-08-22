@@ -21,7 +21,7 @@ ui <- bslib::page_navbar(
     dateRangeInput(
       "written_date_range",
       "Select date range",
-      start = Sys.Date() - 6,
+      start = Sys.Date() - 4,
       end = Sys.Date()
     ),
     uiOutput("written_tables"),

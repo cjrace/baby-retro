@@ -105,6 +105,10 @@ server <- function(input, output, session) {
         hc_chart(type = "line") |>
         hc_xAxis(
           categories = as.character(unique(filtered_data$date))
+        ) |>
+        hc_yAxis(
+          min = 0,
+          max = 5
         )
 
       for (name in names_split) {

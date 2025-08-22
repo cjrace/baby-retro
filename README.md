@@ -12,8 +12,6 @@ Quick R Shiny app to visualise the latest results from our Google sheets to use 
 
 `shiny::runApp()`
 
-## TODO
+## Deployment
 
-- Handle Google auth for a server
-- Deploy to shinyapps.io (POSIT connect cloud doesn't have private link sharing)
-- Add other workflows (Air, tests)
+Not yet deployed anywhere, just running locally.
