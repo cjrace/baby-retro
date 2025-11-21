@@ -180,7 +180,7 @@ server <- function(input, output, session) {
   })
 
   # Dynamically render each table
-  observe({
+  shiny::observe({
     data <- filtered_written_data()
     cols <- setdiff(names(data), c("name", "date"))
     for (col in cols) {
